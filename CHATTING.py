@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 
 load_dotenv()  
-TOKEN = os.getenv('0ed35ba18d34efec232b013b80c19ff0af5da6b1e0bd8f28df296fb59dd47da5')  
-GPT_KEY = os.getenv('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')  
+TOKEN = os.getenv('put token')  
+GPT_KEY = os.getenv('put key')  
 
 openai.api_key = GPT_KEY  
 
